@@ -174,13 +174,13 @@
 // console.log(type);
 
 
-// No 12
+// No 12 merubah huruf "a" menjadi "*""
 const inputString = "An apple a day keeps the doctor away".toLowerCase();
 const replaceWord = "a";
 let ModifiedString = "";
 
 for( let i = 0; i < inputString.length; i++) {
-    if (inputString[i] === replaceWord) {
+    if (inputString[i] === replaceWord) {        
         ModifiedString += "*";
     } else {
         ModifiedString += inputString[i];
