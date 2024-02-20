@@ -38,7 +38,7 @@
 // createTriangle(triangleHeight);
 
 
-// //No 3 
+// //No 3 =========================================================================
 
 // function fizzBuzz(n) {
 //     // Buat array kosong untuk menyimpan hasil
@@ -81,7 +81,7 @@
 // // Output: 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz
 
 
-// //No 4 kalkulator BMI
+// //No 4 kalkulator BMI===============================================================================
 
 // function calculateBMI(weight, height) {
 //     // Menghitung BMI
@@ -111,7 +111,7 @@
 // console.log("BMI Category:", bmiCategory);
 
 
-// // No 5
+// // No 5=============================================================================================
 
 // function filterEvenNumbers(arr) {
 //     // Menggunakan metode filter() untuk menghasilkan array baru yang hanya berisi angka genap
@@ -124,7 +124,7 @@
 // let filteredNumbers = filterEvenNumbers(numbers);
 // console.log(filteredNumbers); // Output: [2, 4, 6, 8, 10]
 
-// // tanpa build in method
+// // tanpa build in method=================================
 // function removeOddNumber(arr) {
 //     const evenNumbers = [];
 
@@ -138,13 +138,13 @@
 // const inputArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // console.log(removeOddNumber(inputArr))
 
-// // No 6 SPLIT
-// pke build in method
-// function splitString(input) {
-//     return input.split(" ");
-// }
+// // No 6 SPLIT================================================================
+//pke build in method
+function splitString(input) {
+    return input.split(" ");
+}
 
-// console.log(splitString("Hello World"));
+console.log(splitString("Hello World"));
 
 ////tanpa buil in method
 // function splitStringIntoArray(str) {
@@ -159,24 +159,24 @@
 // console.log(words); // Output: ["Hello", "World"]
 
 
-const splitString = function (input) {
-    let kata = [];
-    let temp = "";
+// const splitString = function (input) {
+//     let kata = [];
+//     let temp = "";
 
-    for (let i = 0; i < input.length; i++) {
-        if(input[i]=== " "){
-            kata.push(temp);
-            temp = "";
-            continue //skip looping 
-        }
+//     for (let i = 0; i < input.length; i++) {
+//         if(input[i]=== " "){
+//             kata.push(temp);
+//             temp = "";
+//             continue //skip looping 
+//         }
 
-        temp += input[i];
-    }
+//         temp += input[i];
+//     }
 
-    kata.push(temp);
+//     kata.push(temp);
 
-    return kata;
+//     return kata;
 
-}
+// }
 
-console.log(splitString("Hello World Jogja"))
+// console.log(splitString("Hello World Jogja"))
